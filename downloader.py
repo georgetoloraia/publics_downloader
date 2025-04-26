@@ -40,7 +40,7 @@ while True:
         blockchair_data_index += 1
         
         # Add delay to prevent overloading the API (adjust as necessary)
-        time.sleep(2)
+        time.sleep(1)
 
     except Exception as e:
         print(f"Error fetching or processing block: {e}")
